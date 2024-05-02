@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="/css/login.css">
+    <title> Log In | OneTech</title>
+</head>
+<body>
+    
+    <!-- Navigation Bar -->
+    <div class="topnav">
+        <header class="header">
+            <a href="login.html">
+            <img class="nav-img" src="/img/logo.png">
+            </a>
+                <nav class="navbar">
+                    <ul class="nav-links">
+                        <li> <a href="index.html"> Home </a></li>
+                        <li> <a href="store.html"> Store </a></li>
+                        <li> <a href="about-us.html"> About Us </a></li>
+                        <li> <a href="contact.html"> Contact Us </a></li>
+                        <li> <a href="brands.html"> Brands </a></li>
+                    </ul>    
+                </nav>
+        </header>
+    </div>
+<!-- End -->
+
+<!--This is the login form-->
+    <div class="form-popup">
+        <div class="form-box">
+
+            <div class="form-details">
+                <h1>Welcome Back!</h1>
+                <p>Ready to geek out with OneTech? Log in and unlock a world of computer part goodness! Your tech journey starts here. #OneTechAdventures</p>
+                <p>Please Log In using your Email and Password</p>
+            </div>
+            
+            <div class="form-content">
+                <h1>Login To Your Account</h1>
+                <h3>Login using this social media</h3>
+                <div class="form-icons">
+                    <a href="#"><img src="/img/facebook.png" alt="fb" ></a>
+                    <a href="#"><img src= "/img/instagram.png" alt="ig"></a>
+                    <a href="#"><img src="/img/twitter.png" alt="twt"></a>
+                </div>
+
+                <form method="#" action="home.html">
+                    <div class="txt-field">
+                        <input type="Email" name="Email" value="admin@gmail.com" placeholder= "Email" required>
+                    </div>
+
+                    <div class="txt-field2">
+                        <input type="password" name="password" value="12345" placeholder="password" required id="myInput">
+                    </div>
+
+                    <div class="show-pass">
+                        <input type="checkbox" onclick="myPass()">Show password
+                    </div>
+
+                    <div class="signup-link">
+                        <input type="submit" value="login">
+                    </div>
+
+                    <div class="signup-link">
+                       <p>New costumer?</p><a href="registrar.html"><b>Create your account</b></a> 
+                    </div>
+                </form>  
+            </div>
+
+        </div>
+    </div>
+<!--End-->   
+        
+<!-- Link to JS -->
+    <script type="text/javascript" src="js/login.js"></script>
+ 
+</body>
+</html>
