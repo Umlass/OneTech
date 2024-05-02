@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto, poppins';
+}
+
+body {
+    color: #fff;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/logbg.jpg);
+    background-size: cover;
+    padding: 10px;
+    margin-top: 25px;
+}
+
+
+
+/* Content */
+.container {
+    max-width: 700px;
+    width: 100%;
+    padding: 20px 25px;
+    border-radius: 25px;
+    backdrop-filter: blur(15px);
+}
+
+.container .form-content {
+    font-size: 15px;
+    position: relative;
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+
+.container .form-content::before {
+    content: '';
+    position: absolute;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: black;
+}
+
+form {
+    margin: 25px;
+    padding: 20px;
+    padding-bottom: 15px;
+} 
+
+form .input-box {
+    padding-bottom: 15px;
+}
+
+.container form .user-details {
+    margin-top: 25px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+form .user-details .input-box {
+    width: calc(100% / 2 - 20px);
+    margin-bottom: 15px;
+}
+
+.user-details .input-box .details {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.user-details .input-box input {
+    height: 40px;
+    width: 90%;
+    outline: none;
+    border-radius: 5px;
+    border: 3px solid rgb(32, 36, 36);
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+.user-details .input-box input:focus,
+.user-details .input-box input:valid {
+    border-color:  red;
+}
+
+form .gender-details .gender-title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+form .gender-details .category {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.gender-details .category input {
+    border: 0;
+    cursor: pointer;
+    width: 50px;
+    height: 1.5em;
+}
+
+form .form-button {
+    width: 500px;
+    padding-top: 20px;
+    padding-left:  215px;
+}
+
+form .form-button input {
+    margin-top: 10px;
+    padding: 10px 0;
+    height: 100%;
+    width: 50%;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    background: linear-gradient(135deg,#000000,#6d0808); 
+}
+
+form .button input:hover {
+    background: linear-gradient(-135deg#000000, #6d0808);
+}

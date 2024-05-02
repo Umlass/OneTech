@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #252525;
+    color: white;
+}
+
+/* Navigation Bar */
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 100px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.nav-img {
+    width: 100px;
+    padding-left: 10px;
+}
+
+.nav-links {
+    padding-right: 100px;
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.navbar a:hover {
+    color: red;
+    transition: ease;
+}
+/*End*/
+
+/* Intro */
+.title-box {
+    text-align: center;
+    margin: 100px auto 50px;
+}
+
+.title-box p {
+    margin-top: 10px;
+    line-height: 20px;
+}
+/* End */
+
+/* Profile Section */
+.profile-box {
+    width: 240px;
+    height: 240px;
+    background: #fff;
+    border-radius: 4px;
+    margin-top: 30px;
+    box-shadow: 0 5px 5px 5px rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    position: relative;
+    transition: background 0.3s;
+    margin-bottom: 15px;
+}
+
+.profile-box h4 {
+    margin-top: 25px;
+    margin-bottom: 5px;
+    color: #800000;
+    font-size: 20px;
+}
+
+.profile-box img {
+    width: 100px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.profile-box p {
+    text-align: center;
+    line-height: 24px;
+    color: #800000;
+} 
+
+.profile-box img:hover {
+    width: 240px;
+}
+
+.profile-box:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+small {
+    color: #800000;
+}
+
+.social-box {
+    background: #800000;
+    margin: 60px auto 20px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.social-box .bx {
+    margin: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.team-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
+}
+/* End */
+
+/* Footer */
+.page-footer {
+    height: 4rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+footer{
+    margin-top: auto;
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+    display: flex;
+}
+
+.page-footer p {
+    margin-bottom: 0;
+}
+.footer-logo, 
+.page-footer a {
+    color: #fff;
+}
+/* End */
