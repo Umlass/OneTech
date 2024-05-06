@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'robbin, poppins';
-    background: url(../img/logbg.jpg);
+    background: url(img/logbg.jpg);
     height: 100vh;
     overflow: hidden;
     background-size: cover;    
